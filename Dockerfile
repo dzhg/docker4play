@@ -33,8 +33,8 @@ RUN \
 # Clone play_empty repository
 # And run sbt compile to cache all dependencies on local
 RUN \
-  git clone https://github.com/dzhg/play_empty.git play_empty
-  cd play_empty
+  git clone https://github.com/dzhg/play_empty.git play_empty \
+  cd play_empty \
   sbt compile
 
 # Define working directory

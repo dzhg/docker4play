@@ -35,7 +35,7 @@ RUN \
 RUN \
   git clone https://github.com/dzhg/play_empty.git play_empty && \
   cd play_empty && \
-  sbt compile
+  sbt test
 
 # Define working directory
 WORKDIR /root

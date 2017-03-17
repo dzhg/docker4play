@@ -30,5 +30,12 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
+# Clone play_empty repository
+# And run sbt compile to cache all dependencies on local
+RUN \
+  git clone https://github.com/dzhg/play_empty.git play_empty && \
+  cd play_empty && \
+  sbt test
+
 # Define working directory
 WORKDIR /root

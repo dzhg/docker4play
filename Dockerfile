@@ -1,7 +1,7 @@
 #
 # Scala 2.11.8 and sbt 0.13.13 Dockerfile
 #
-# https://github.com/dzhg/scala2.11.8_sbt0.13.13_docker
+# https://github.com/dzhg/docker4play
 #
 # Based on https://github.com/hseeberger/scala-sbt
 

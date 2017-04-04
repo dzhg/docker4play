@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   "com.github.tminglei"     %% "slick-pg" % "0.15.0-RC",
   "com.github.tminglei"     %% "slick-pg_play-json" % "0.15.0-RC",
   "org.postgresql"          %  "postgresql" % "42.0.0",
+  "com.github.t3hnar"       %% "scala-bcrypt" % "3.0",
   "org.mockito"             %  "mockito-core" % "2.7.16" % Test,
   "org.scalatestplus.play"  %% "scalatestplus-play" % "2.0.0" % Test,
   "com.typesafe.akka"       %% "akka-testkit" % "2.4.14" % Test
